@@ -1,0 +1,29 @@
+.carts{
+    width:280px;
+    height: 480px;
+    border-radius: 10px;
+    background-color:white;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 25px;
+}
+.carts img{
+    width:250px;
+    height: 150px;
+    margin-left: 14px;
+    margin-top: 14px;
+    border-radius: 10px;
+}
+.detail-section{
+    margin-left: 20px;
+}
+.btn-add{
+    width: 80%;
+   margin-left: 30px;
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(115, 115, 243);
+   color: white;
+
+}

@@ -1,0 +1,69 @@
+.activity-information{
+    background-color: white;
+    height: 700px;
+    
+}
+.persone{
+  text-align: center;  
+}
+.persone-information{
+    background-color: lightgray;
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 10px;
+}
+.second-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 0%;
+    
+}
+.weight-items p{
+    margin-top: 1px;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.add-break{
+    margin-left: 10px;
+}
+.secound-count{
+    background-color: lightgray;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 55px;
+    border-radius: 5px;
+}
+.btn-second{
+    padding: 10px;
+    border-radius: 50px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: white;
+    
+}
+.exercise-time{
+    background-color: lightgray;
+    height: 40px;
+    border-radius: 5px;
+}
+.padding{
+    padding: 10px;
+    
+}
+.btn-activity{
+    width: 100%;
+   
+   padding: 10px;
+   border-radius: 5px;
+   border: none;
+   background-color: rgb(115, 115, 243);
+   color: white;
+   margin-top: 30px;
+
+}
