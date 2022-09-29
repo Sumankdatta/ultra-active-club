@@ -34,8 +34,8 @@
     }
   }
   
-  
-  /* @media screen and (min-width: 482px) and (max-width: 768px)  {
+
+ @media screen and (min-width: 482px) and (max-width: 768px)  {
     .main-container {
       
         display: grid;
@@ -50,4 +50,4 @@
        
       
     }
-  } */
+  } 
