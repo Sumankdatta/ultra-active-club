@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
 import Blog from '../Blog/Blog';
 import Cart from '../Cart/Cart';
-import Toast from '../Toast/Toast';
+
 import './Carts.css'
 
 const Carts = () => {
@@ -15,10 +15,10 @@ const Carts = () => {
         fetch('card.json')
         .then(res =>res.json())
         .then(data =>setCarts(data))
-    },[])
+    },[]);
 
     const handalClick =(cart)=>{
-        console.log(cart)
+        
         const newItem=[...item,cart];
         setItems(newItem)
     }
@@ -36,7 +36,7 @@ const Carts = () => {
           setBreakTime(localTime);
         }
       
-      }, [])
+      }, []);
     return (
       <div>
        
@@ -66,7 +66,7 @@ const Carts = () => {
                
 
                ></Activity>
-               {/* {toast?<Toast></Toast>:''} */}
+               
                
                
                

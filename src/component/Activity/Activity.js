@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+
 import './Activity.css'
 import profileIcon from '../../man.jfif';
 
