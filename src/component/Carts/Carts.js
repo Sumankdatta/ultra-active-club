@@ -9,7 +9,7 @@ const Carts = () => {
     const [carts, setCarts]=useState([]);
     const [item,setItems]=useState([]);
     const [breakTime,setBreakTime]=useState(0);
-    const [toast,setToast]=useState(false)
+    
 
     useEffect(()=>{
         fetch('card.json')
@@ -28,10 +28,7 @@ const Carts = () => {
         localStorage.setItem('Data', JSON.stringify(time));
 
     }
-    const showToast=()=>{
-        setToast(true)
-
-    }
+   
 
     useEffect(() => {
         let localTime = JSON.parse(localStorage.getItem('Data'));
@@ -66,7 +63,7 @@ const Carts = () => {
                <Activity item={item}
                updateBreakTime={updateBreakTime}
                breakTime={breakTime}
-               showToast={showToast}
+               
 
                ></Activity>
                {/* {toast?<Toast></Toast>:''} */}
