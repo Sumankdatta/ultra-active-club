@@ -1,14 +1,29 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import './Activity.css'
+import profileIcon from '../../man.jfif';
 
 
-const Activity = ({item}) => {
+const Activity = (props) => {
+    
+    const {item,breakTime,updateBreakTime,showToast}=props;
+    let total=0;
+    for(const cart of item){
+        total=total + cart.Time;
+        console.log(total)
+    }
+    
+        
+    
+
     return (
         <div className='activity-information'>
+            <div className='persone-pic'>
+            <img src={profileIcon} alt="" />
            <div className='persone'>
                 <h4>Anurag Datta</h4>
                 <p>Newyork.USA</p>
            </div>
+            </div>
            <div className='persone-information'>
             <div className='second-container'>
              <div className='weight-items'>
@@ -40,25 +55,25 @@ const Activity = ({item}) => {
            <h4 className='add-break'>Add A Break</h4>
            <div className='secound-count'>
             <div className='second'>
-                <button className='btn-second'>10</button>
-                <button className='btn-second'>20</button>
-                <button className='btn-second'>30</button>
-                <button className='btn-second'>40</button>
-                <button className='btn-second'>50</button>
+                <button className='btn-second' onClick={()=>updateBreakTime(10)}>10s</button>
+                <button className='btn-second' onClick={()=>updateBreakTime(20)}>20s</button>
+                <button className='btn-second'onClick={()=>updateBreakTime(30)}>30s</button>
+                <button className='btn-second'onClick={()=>updateBreakTime(40)}>40s</button>
+                <button className='btn-second'onClick={()=>updateBreakTime(50)}>50s</button>
                 
             </div>
             <h4 className='add-break'>Exercise Details</h4>
-            <p>ore:{item.length}</p>
+            {/* <p>ore:{item.length}</p> */}
             <div className='exercise-time'>
             
-                <p className='padding'>Exercise time :</p>
+                <p className='padding'>Exercise time : {total} second</p>
 
             </div>
             <div className='exercise-time'>
-                <p className='padding'>Break time :</p>
+                <p className='padding'>Break time : {breakTime} second</p>
 
             </div>
-            <button className='btn-activity'>Activity Completed</button>
+            <button className='btn-activity'onClick={()=>showToast()}>Activity Completed</button>
 
            </div>
            

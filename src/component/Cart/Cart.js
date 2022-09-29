@@ -14,7 +14,7 @@ const Cart = (props) => {
            <h4>{name}</h4>
             <p>{about.slice(0,97)}...</p>
             <h5>For Age : {age}</h5>
-            <h5>Time required : {Time}</h5>
+            <h5>Time required : {Time}s</h5>
            </div>
            <button className='btn-add' onClick={()=>handalClick(cart)}>Add to list</button>
 
