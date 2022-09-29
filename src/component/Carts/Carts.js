@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Activity from '../Activity/Activity';
+import Blog from '../Blog/Blog';
 import Cart from '../Cart/Cart';
 import Toast from '../Toast/Toast';
 import './Carts.css'
@@ -75,6 +76,7 @@ const Carts = () => {
             </div>
             
         </div>
+        <Blog></Blog>
       </div>
     );
 };

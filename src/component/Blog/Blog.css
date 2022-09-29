@@ -1,0 +1,9 @@
+.blog{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 10%;
+    text-align: justify;
+}
+.blog h1{
+    color: rgb(92, 92, 227);
+}

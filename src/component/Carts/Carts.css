@@ -28,8 +28,23 @@
     .items-container {
        display: flex;
        flex-direction: column-reverse;
-       margin-left: 10%;
+       margin-left: 8%;
        
       
     }
   }
+  /* @media screen and (max-width: 820px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+       
+      
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .main-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+      
+    }
+  } */
