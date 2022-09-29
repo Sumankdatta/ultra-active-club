@@ -1,6 +1,8 @@
 .activity-information{
     background-color: white;
     height: 700px;
+    position: sticky;
+    top:0;
     
 }
 .persone{

@@ -5,7 +5,7 @@
     "id":"1233",
     "name": " Burpees",
     "about": "An exercise we love to hate, burpees are a super-effective, whole-body move that provides great bang for your buck for cardiovascular endurance and muscle strength.",
-    "Time": "30s"
+    "Time": 55
   },
   {
     "img": "https://i.postimg.cc/y8zQXyvY/dumbbell-row.png",
@@ -13,7 +13,7 @@
     "id":"1234",
     "name": "Dumbbell rows",
     "about": "Not only will these make your back look killer in that dress, but dumbbell rows are also another compound exercise that strengthens multiple muscles in your upper body. Choose a moderate-weight dumbbell and ensure that you’re squeezing at the top of the movement.",
-    "Time": "30s"
+    "Time": 15
   },
   {
     "img": "https://i.postimg.cc/6qf2swJP/glute-bridge.jpg",
@@ -21,7 +21,7 @@
     "id":"1235",
     "name": "Glute bridge",
     "about": "The glute bridge effectively works your entire posterior chain, which isn’t only good for you, but it’ll make your booty look perkier, too.",
-    "Time": "30s"
+    "Time": 20
   },
   {
     "img": "https://i.postimg.cc/nhgLPM9z/lunges.jpg",
@@ -29,7 +29,7 @@
     "id":"1236",
     "name": "Lunges",
     "about": "Challenging your balance is an essential part of a well-rounded exercise routine. Lunges do just that, promoting functional movement while also increasing strength in your legs and glutes.",
-    "Time": "30s"
+    "Time": 25
   },
   {
     "img": "https://i.postimg.cc/Kjpb3snz/pushup.jpg",
@@ -37,7 +37,7 @@
     "id":"1237",
     "name": "Pushups",
     "about": "Drop and give me 20! Pushups are one of the most basic yet effective bodyweight moves you can perform because of the number of muscles that are recruited to perform them.",
-    "Time": "30s"
+    "Time": 30
   },
   {
     "img": "https://i.postimg.cc/MTd2gr3D/side-planks.jpg",
@@ -45,7 +45,7 @@
     "id":"1238",
     "name": "Side planks",
     "about": "A healthy body requires a strong core at its foundation, so don’t neglect core-specific moves like the side plank.Focus on the mind-muscle connection and controlled movements to ensure you’re completing this move effectively.",
-    "Time": "30s"
+    "Time": 35
   },
   {
     "img": "https://i.postimg.cc/cC44W0Zd/single-leg-deadlift-2.jpg",
@@ -53,7 +53,7 @@
     "id":"1239",
     "name": "Single-leg deadlifts",
     "about": "This is another exercise that challenges your balance. Single-leg deadlifts require stability and leg strength. Grab a light to moderate dumbbell to complete this move.",
-    "Time": "30s"
+    "Time": 40
   },
   {
     "img": "https://i.postimg.cc/Ls1VkFc4/squats.jpg",
@@ -61,7 +61,7 @@
     "id":"1240",
     "name": "Squats",
     "about": "Squats increase lower body and core strength, as well as flexibility in your lower back and hips. Because they engage some of the largest muscles in the body, they also pack a major punch in terms of calories burned.",
-    "Time": "30s"
+    "Time": 45
   }
   
 ]

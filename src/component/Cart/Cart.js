@@ -3,7 +3,10 @@ import './Cart.css'
 
 const Cart = (props) => {
     console.log(props)
-    const {name,age,about,img,Time}=props.cart
+    const {handalClick,cart}=props;
+    const {name,age,about,img,Time}=cart;
+    
+    console.log(props)
     return (
         <div className='carts'>
             <img src={img} alt="" />
@@ -13,7 +16,7 @@ const Cart = (props) => {
             <h5>For Age : {age}</h5>
             <h5>Time required : {Time}</h5>
            </div>
-           <button className='btn-add'>Add to list</button>
+           <button className='btn-add' onClick={()=>handalClick(cart)}>Add to list</button>
 
         </div>
     );

@@ -2,7 +2,7 @@ import React from 'react';
 import './Activity.css'
 
 
-const Activity = () => {
+const Activity = ({item}) => {
     return (
         <div className='activity-information'>
            <div className='persone'>
@@ -48,7 +48,9 @@ const Activity = () => {
                 
             </div>
             <h4 className='add-break'>Exercise Details</h4>
+            <p>ore:{item.length}</p>
             <div className='exercise-time'>
+            
                 <p className='padding'>Exercise time :</p>
 
             </div>
