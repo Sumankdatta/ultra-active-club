@@ -1,3 +1,10 @@
+.header{
+    margin-left: 5%;
+    
+}
+.header h1{
+    color: rgb(133, 133, 246);
+}
 .main-container{
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -9,8 +16,19 @@
     
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (max-width: 480px) {
     .main-container {
+       display: flex;
+       flex-direction: column-reverse;
+       
+      
+    }
+  }
+@media screen and (max-width: 480px) {
+    .items-container {
+       display: flex;
+       flex-direction: column-reverse;
+       margin-left: 10%;
        
       
     }

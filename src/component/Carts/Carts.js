@@ -42,8 +42,15 @@ const Carts = () => {
     return (
       <div>
        
+       <div className='header'>
+       <h1>Boost Your Energy</h1>
+        <h3>Select today’s exercise</h3>
+       </div>
           <div className='main-container'>
+          
             <div className="items-container">
+                
+            
                 {
                     carts.map(cart =><Cart 
                         key={cart.id}
